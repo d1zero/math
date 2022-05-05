@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<style>
+    .arrays::-webkit-scrollbar {
+        display: none;
+    }
+</style>
+
+<body class="container">
+
+    <div class="center-align">
+        <header class="mb-auto">
+            <div>
+                <h3 class="float-md-start mb-0">ExtraTask 1 </h3>
+            </div>
+        </header>
+
+        <div class="row">
+        <h4>Отношение задано матрицей. Исследовать отношение на симметрию,
+                антисимметрию, асимметрию, рефлексивность, антирефлексивность. Найти
+                транзитивное замыкание отношения.
+            </h4>
+        </div>
+        <div class="row">
+
+        <button id="generate" type="button" class="btn btn-light ">Сгенирировать матрицу</button>
+                <button id="symmetry" type="button" class="btn btn-light ">Исследовать на симметрию</button>
+        </div>
+        <div class="row">
+
+                <button id="antisymmetry" type="button" class="btn btn-light">Исследовать на антисимметрию</button>
+                <button id="asymmetry" type="button" class="btn btn-light">Исследовать на асимметрию</button>
+
+
+            </div>
+            <div class="row">
+
+            <button id="reflexivity" type="button" class="btn btn-light">Исследовать на рефлексивность</button>
+                <button id="antireflexivity" type="button" class="btn btn-light">Исследовать на
+                    антирефлексивность</button>
+                    </div>
+        <div class="row">
+            <button id="closure" type="button" class="btn btn-light">Найти транзитивное замыкание</button>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/underscore@1.13.3/underscore-umd-min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
